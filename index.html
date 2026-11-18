@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="theme-three">
+  <section class="resume">
+
+    
+    <header>
+    <div class="left">
+
+        <div class="date">
+        <input type="date" id="dateInput">
+        <script>
+          const today = new Date();
+          const year = today.getFullYear();
+          const month = String(today.getMonth() + 1).padStart(2, '0');
+          const day = String(today.getDate()).padStart(2,'0');
+
+          const formattedDate = `${year}-${month}-${day}`;
+          const dateInput = document.getElementById('dateInput');
+          if (dateInput) {
+          dateInput.value = formattedDate;
+          }
+          
+        </script>  
+          
+      <img class="image" src="images/profile.png" alt="profile" width="200" height="200">
+      <div class="info">
+        <h1>Mitzy Chavez</h1>
+        <p><i class="fa-solid fa-location-dot"></i>Downey, 90241</p>
+        <p><i class="fa-solid fa-phone"></i>(323) 713-5562</p>
+        <p><i class="fa-solid fa-envelope"></i>mitzychavez08@gmail.com</p>
+      </div>
+      <article>
+      <div class="intro">
+        <p>I am a hardworking and motivated person who started from the bottom and worked my way up. I've been in customer service for years and currently work as an Assistant Manager at a busy bagel shop. I've learned a lot from that role, how to lead a team, handle tough situations, and keep things running smoothly. I'm also going to school for Software Engineering because I want to grow, challenge myself, and build a career where I can keep learning and improving.</p>
+      </div>
+      </article>
+    </div>
+    </header>
+
+    
+    <main>
+    <div class="right">
+      <div class="edu">
+        <h2><i class="fa-solid fa-graduation-cap"></i>EDUCATION</h2>
+        <ul>
+          <li>Current: Western Governors University<br>
+          B. S. in Software Engineering</li>
+        </ul>
+      </div>
+      <div class="work">
+        <h2><i class="fa-solid fa-briefcase"></i>WORK EXPERIENCE</h2>
+        <h3>Brooklyn Bagels LAX, Westchester — Assistant Manager</h3>
+        <p class="date"><span>JULY</span> 2021 - <span>CURRENT</span></p>
+        <ul>
+          <li>Hire and train new employees</li>
+          <li>Prioritize delivering a positive customer service experience</li>
+          <li>Assist with payroll, marketing ideas and maintenance of the electronics in store</li>
+        </ul>
+        <h3>Self employed - Child care</h3>
+        <p class="date"><span>JUNE</span> 2019 - <span>JULY</span> 2021</p>
+        <ul>
+          <li>Provided full-time and part-time care for children, including meal preparation, educational play, and bedtime routines.</li>
+          <li>Developed learning activities and routines to encourage early childhood development.</li>
+        </ul>
+      </div>
+
+      <hr>
+      
+      <div class="skills">
+        <table>
+          <caption><strong>SKILLS</strong></caption>
+        
+          <tr>
+            <td>Languages: Spanish, English</td>
+            <td>Progamming: Basic HTML, Basic CSS, Basic Java Script</td>
+            <td>Software: Excel, PowerPoint, Word</td>
+            <td>Problem solving</td>
+          </tr>
+          <tr>
+            <td>Self motivated</td>
+            <td>Adaptable</td>
+            <td>Critical thinking</td>
+            <td>Creativity</td>
+          </tr>
+          <tr>
+            <td>Time management</td>
+            <td>Customer service</td>
+            <td>Responsable</td>
+            <td>Fast learner</td>
+          </tr>
+        </table>
+      </div>
+      <nav>
+      <div class="coverletter">
+        <a href="coverletter.html"><em>My cover letter</em></a>
+      </div>
+      <div class="goals">
+        <a href="career-goals.html"><em>More about me</em></a>
+      </div>
+      </nav>
+
+      
+      <footer>
+      <div class="bottom">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+
+    
+        
+      </div>
+      </footer>
+    </div>
+    <script>
+      console.log("Hello, World");
+    </script>
+    </main>
+  </section>
+</body>
+</html>

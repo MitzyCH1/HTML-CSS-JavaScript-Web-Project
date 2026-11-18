@@ -1,0 +1,394 @@
+
+*{
+  font-family:sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  
+  padding-left:20px;
+  margin-bottom:20px;
+}
+
+/* THEME ONE  */
+.theme-one * {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body .theme-one  {
+  background: #b88e8e;
+  
+}
+
+.theme-one .page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: linear-gradient(#ffffff, #cf8a9a);
+  border-radius: 20px;
+}
+
+.theme-one header {
+  color: white;
+  text-align: center;
+  background: #c99caa;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.theme-one .image-left {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+.theme-one img {
+  mix-blend-mode: darken;
+  max-width: 100%;
+  height: auto;
+}
+
+.theme-one .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.theme-one .goals-left,
+.theme-one .aspirations-right {
+  flex: 1 1 45%;
+  min-width: 300px;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  text-align: justify;
+}
+
+.theme-one .goals-left {
+  background: #f0b6ad;
+}
+
+.theme-one .aspirations-right {
+  background: #ceaca6;
+}
+
+.theme-one h2 {
+  text-align: center;
+  color: #6e022b8a;
+}
+
+.theme-one .contact {
+  padding: 20px;
+}
+
+.theme-one .contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.theme-one .contact-title {
+  color: white;
+  background: #c99caa;
+  border-radius: 50px;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.theme-one .contact-input {
+  width: 100%;
+  max-width: 350px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #b28a8a;
+  border-radius: 50px;
+}
+
+.theme-one textarea.contact-input {
+  height: 150px;
+  padding-top: 15px;
+  resize: vertical;
+}
+
+.theme-one .contact-input:focus {
+  border: 2px solid #984e72;
+}
+
+.theme-one button {
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  background: linear-gradient(270deg, #dcc5c2, #984e72);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.theme-one .video {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  height: 120px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 999;
+  overflow: hidden;
+}
+
+.theme-one .video video {
+  width: 100%;
+  height:100%;
+  border-radius: 8px;
+  border: none;
+}
+
+.theme-one a {
+  color: white;
+}
+
+.theme-one fieldset {
+  border: none;
+  padding: 10px;
+  background: #9c566c;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  color: white;
+}
+
+.theme-one .time-title {
+  color: white;
+  background: #b07e8e;
+  border-radius: 50px;
+  padding: 5px 50px;
+  text-align: center;
+}
+
+.theme-one input[type="radio"] {
+  accent-color: #984e72;
+  margin: 0 5px;
+}
+
+.theme-one select {
+  width: 100%;
+  max-width: 200px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  color: #984e72;
+  background: #ffffff;
+  font-weight: 500;
+}
+
+.theme-one select:hover {
+  color: #35081b;
+}
+
+/*  THEME TWO */
+ 
+}
+body.theme-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #e8dee2;
+}
+
+.theme-two .letter {
+  background: white;
+  padding: 20px 40px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+
+.theme-two .company {
+  border-top: 3px solid #925473;
+  margin-top: 20px;
+}
+
+.theme-two h1 {
+  color: white;
+  margin: 0;
+}
+
+.theme-two .name {
+  text-align: center;
+  background: #c99caa;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+
+.theme-two .info {
+  background: #d1acb8;
+  text-align: center;
+  text-indent: 20px;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.theme-two .letter p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.theme-two i {
+  color: #925473;
+  padding-right: 5px;
+}
+
+.theme-two a {
+  color: #925473;
+}
+
+.theme-two a:hover {
+  color: #c99caa;
+}
+
+.theme-two span {
+  font-weight: bold;
+}
+
+.theme-two mark {
+  color: #080707;
+  background-color: #f0cfd4;
+}
+
+/* THEME THREE  */
+body  {
+  
+  line-height: 1.5;
+  background: #f4e8ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.theme-three .bottom {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.theme-three .bottom i {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.theme-three .bottom i:hover {
+  background-color: #ffffff;
+}
+
+.theme-three .coverletter {
+  padding-top: 30px;
+}
+
+.theme-three i {
+  color: #874e65;
+  padding-right: 5px;
+}
+
+.theme-three a {
+  color: white;
+}
+
+.theme-three a:hover {
+  color: #874e65;
+}
+
+.theme-three span {
+  font-weight: bold;
+}
+
+.theme-three .resume {
+  margin: 50px;
+  display: flex;
+}
+
+.theme-three .resume .left {
+  width: 270px;
+  background: white;
+  border-radius: 20px 0 0 20px;
+  min-height: 100%;
+}
+
+.theme-three .left .image {
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+}
+
+.theme-three .left .intro,
+.theme-three .left .info {
+  padding: 35px;
+  text-align: justify;
+}
+
+.theme-three .left .info {
+  text-align: center;
+}
+
+.theme-three .resume .right {
+  width: 550px;
+  background: #c99caa;
+  color: #ffffff;
+  border-radius: 0 50px 50px 0;
+  padding: 30px;
+}
+
+.theme-three th,
+.theme-three td {
+  border-radius: 20px;
+  text-align: center;
+  background: white;
+  color: #9c5c76;
+}
+
+.theme-three h1,
+.theme-three h2 {
+  color: white;
+}
+
+.theme-three .date {
+  color: #874e65;
+}
+
+.theme-three .edu,
+.theme-three .work {
+  text-align: left;
+}
+
+.theme-three .edu {
+  padding-bottom: 40px;
+}
+
+.theme-three .work {
+  padding-bottom: 90px;
+}
+
+.theme-three #dateInput {
+  border: none;
+  color: #874e65;
+  font-weight: bolder;
+  border-radius: 20px;
